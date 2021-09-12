@@ -6,7 +6,7 @@ function passwordGenerator() {
         *)/#%@}[`>&_.... = 33 - 47 incl. && 58 - 64 incl. && 91 - 96 incl. && 123 - 126 incl.
     */
 
-    // 10 characters long
+    // 15 characters long
 
 
     function generateRandomNumbers() {
