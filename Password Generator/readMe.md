@@ -1,10 +1,22 @@
-Hello there 👋
+Hello 👋
 
-This repository will contains projects that I've been working on or I'm currently working. 
+This is a password generator that will provide passwords based on several rules:
+    1. It will have at least one Upper case letter
+    2. It will have at least one Lower case letter
+    3. It will have at least one special character
+    4. It will have at least one digit
+    5. Length will be 15 characters long
 
-Thanks!
+You will be given the functionaluty to press a single button in order to get your password. 
 
+This simple project contains the following files:
+    - index.html
+    - generator.js
+    - style.css
+    - readMe
 
+Enjoy :)
 
-
-# Projects
+-----------------------------------------------------------
+Project start date - 26.08.2021
+Project end date - 31.08.2021
