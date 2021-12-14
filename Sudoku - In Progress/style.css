@@ -1,0 +1,358 @@
+body {
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+#welcome {
+    font-size: 10vw;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    transition: 0.3s;
+    color: rgb(80, 80, 70);
+}
+
+#welcome:hover {
+    cursor: default;
+    font-size: 10vw;
+    color: rgb(238, 212, 129);
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 5vw;
+    border: 3px solid;
+    border-radius: 17%;
+    margin: 45px;
+    width: auto;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(133, 138, 107);
+}
+
+.nav:hover {
+    color: rgb(80, 80, 70);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(0, 0, 0);
+}
+
+#navigation {
+    position: absolute;
+    top: 550px;
+    left: 19vw;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#level h1 {
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    transition: 0.3s;
+    color: rgb(80, 80, 70);
+}
+
+#level h1:hover {
+    font-size: 5vw;
+    color: rgb(238, 212, 129);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 17%;
+    margin: 45px;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(133, 138, 107);
+}
+
+#rules {
+    text-align: center;
+}
+
+#rules #hOverview {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#rules #hRules {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#rules li {
+    margin: 2px;
+    padding: 1px;
+    position: relative;
+    bottom: 30px;
+}
+
+#rules p {
+    position: relative;
+    bottom: 30px;
+}
+
+.puzzle {
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 70);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(0, 0, 0);
+}
+
+#leveling button {
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+#leveling button:hover {
+    font-size: 162%;
+}
+
+#playBack button {
+    font-size: 235%;
+    position: relative;
+    margin: 10%;
+    left: 275px;
+}
+
+#backRules button {
+    position: fixed;
+    left: -10px;
+    top: -20px;
+    font-size: 125%;
+}
+
+#about {
+    margin: 5%;
+    text-align: center;
+}
+
+.sudoku {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    opacity: 65%;
+}
+
+#repo {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    position: relative;
+    right: 44.7%;
+}
+
+#repo:hover {
+    color: rgb(189, 242, 255);
+    transition: 0.3s;
+}
+
+#container {
+    border: 4px solid;
+    width: 384px;
+    height: 360px;
+    border-radius: 3px;
+    border-color: rgb(117, 76, 13);
+    display: grid;
+    position: relative;
+    left: 440px;
+    top: 180px;
+}
+
+.box-1 {
+    border: 2px solid;
+    width: 126px;
+    margin: -1px;
+}
+
+.box-2 {
+    border: 2px solid;
+    position: relative;
+    left: 128px;
+    bottom: 360px;
+    width: 126px;
+    margin: -1px;
+}
+
+.box-3 {
+    border: 2px solid;
+    position: relative;
+    left: 256px;
+    bottom: 720px;
+    width: 126px;
+    margin: -1px;
+}
+
+p#question {
+    margin: 20px;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal {
+    position: relative;
+    border-radius: 10px;
+    left: 380px;
+    width: 500px;
+    background-color: rgb(118, 169, 226);
+    text-align: center;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(99, 99, 99, 0.555);
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(155, 155, 155, 0.712);
+}
+
+@media screen and (max-height: 704px) {
+    .modal {
+        position: relative;
+        border-radius: 10px;
+        left: 502px;
+        width: 500px;
+        background-color: rgb(118, 169, 226);
+        text-align: center;
+    }
+    #container {
+        border: 4px solid;
+        width: 384px;
+        height: 350px;
+        border-radius: 3px;
+        border-color: rgb(117, 76, 13);
+        display: grid;
+        position: relative;
+        left: 440px;
+        top: 100px;
+    }
+    .box-1 {
+        border: 2px solid;
+        width: 126px;
+        margin: -1px;
+    }
+    .box-2 {
+        border: 2px solid;
+        position: relative;
+        left: 128px;
+        bottom: 350px;
+        width: 126px;
+        margin: -1px;
+    }
+    .box-3 {
+        border: 2px solid;
+        position: relative;
+        left: 256px;
+        bottom: 701px;
+        width: 126px;
+        margin: -1px;
+    }
+    #commands {
+        position: relative;
+        bottom: 120px;
+    }
+    .nav {
+        position: relative;
+        left: 30px
+    }
+    #choice {
+        position: relative;
+        margin: 0px;
+    }
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    margin: -1px;
+    text-align: center;
+    font-size: 100%;
+}
+
+.row {
+    margin: 4px;
+}
+
+#leave {
+    position: relative;
+    top: 250px;
+    left: 270px;
+    margin-right: 200px;
+    background-color: rgba(197, 31, 31, 0.5);
+}
+
+#check {
+    position: relative;
+    top: 250px;
+    left: 70px;
+    margin-left: 100px;
+    background-color: rgba(18, 137, 192, 0.582);
+}
+
+#hint {
+    position: relative;
+    top: 250px;
+    left: 30px;
+    margin-left: 100px;
+    background-color: rgba(42, 221, 51, 0.582);
+}
+
+#reset {
+    position: relative;
+    top: 250px;
+    margin-left: 90px;
+    background-color: rgba(127, 136, 4, 0.582);
+}
+
+#info-bar {
+    position: relative;
+    top: 47px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+#level-info {
+    margin-right: 100px;
+    font-size: 25px;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    text-shadow: -3px 3px 5px rgb(0, 0, 0);
+}
+
+#time {
+    position: relative;
+    top: 27px;
+    margin-left: 100px;
+    font-size: 25px;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    text-shadow: -3px 3px 5px rgb(0, 0, 0);
+}
