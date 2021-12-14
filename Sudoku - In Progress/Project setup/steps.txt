@@ -1,0 +1,24 @@
+Steps:
+
+1. Create a single HTML index file with the separate view.
+ - Home view
+ - Game view
+ - Rules view
+ - About view
+
+2. Create the css file with the required style for each view
+
+3. Prepare the basic architecture of the project
+
+4. Create the script that rules the functionality of the game
+
+
+
+
+
+
+
+
+
+
+Started on 12.12.2021
